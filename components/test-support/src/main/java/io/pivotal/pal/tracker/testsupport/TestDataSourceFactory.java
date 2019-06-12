@@ -11,7 +11,7 @@ public class TestDataSourceFactory {
         MysqlDataSource dataSource = new MysqlDataSource();
 
         dataSource.setUrl("jdbc:mysql://localhost:3306/" + name + "?useSSL=false&useTimezone=true&serverTimezone=UTC&useLegacyDatetimeCode=false");
-        dataSource.setUser("tracker");
+        dataSource.setUser("root");
 
         return dataSource;
     }
