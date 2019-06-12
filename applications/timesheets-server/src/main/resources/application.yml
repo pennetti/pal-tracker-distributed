@@ -1,6 +1,9 @@
 spring:
   application:
     name: timesheets-server
-
   datasource:
     username: root
+
+registration:
+  server:
+    endpoint: http://registration-server

@@ -3,3 +3,8 @@ spring:
     name: allocations-server
   datasource:
     username: root
+
+
+registration:
+  server:
+    endpoint: http://registration-server

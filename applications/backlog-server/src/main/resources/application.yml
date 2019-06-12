@@ -3,3 +3,7 @@ spring:
     name: backlog-server
   datasource:
     username: root
+
+registration:
+  server:
+    endpoint: http://registration-server
