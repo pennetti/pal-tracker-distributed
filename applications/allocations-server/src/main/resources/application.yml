@@ -5,6 +5,12 @@ spring:
     username: root
 
 
+
 registration:
   server:
     endpoint: http://registration-server
+
+management:
+  endpoint:
+    health:
+      show-details: always
