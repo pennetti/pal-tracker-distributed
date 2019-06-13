@@ -8,8 +8,16 @@ registration:
   server:
     endpoint: http://registration-server
 
+security:
+  oauth2:
+    client:
+      grant-type: client_credentials
 
 management:
   endpoint:
     health:
       show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: env,health

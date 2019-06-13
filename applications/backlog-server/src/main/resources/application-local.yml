@@ -3,3 +3,14 @@ spring:
     url: jdbc:mysql://localhost:3306/tracker_backlog_dev?user=root&useSSL=false&useTimezone=true&serverTimezone=UTC&useLegacyDatetimeCode=false
 server:
   port: 8082
+
+security:
+  oauth2:
+    resource:
+      token-info-uri: http://localhost:8999/oauth/check_token
+    client:
+      grant-type: client_credentials
+
+application:
+  oauth-enabled: true
+

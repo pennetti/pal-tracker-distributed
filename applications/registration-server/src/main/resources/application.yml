@@ -5,3 +5,12 @@ spring:
 registraton:
   server:
     endpoint: http://registration-server
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: env,health

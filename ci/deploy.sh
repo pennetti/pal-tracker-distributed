@@ -6,8 +6,3 @@ set -e
 
 wait
 echo "All 3 complete"
-
-export REGISTRATION_APP_URL=registration-pal-devon.cfapps.io
-export TIMESHEETS_APP_URL=timesheets-pal-devon.cfapps.io
-export ALLOCATIONS_APP_URL=allocations-pal-devon.cfapps.io
-export BACKLOG_APP_URL=backlog-pal-devon.cfapps.io

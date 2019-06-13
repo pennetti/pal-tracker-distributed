@@ -12,3 +12,12 @@ management:
   endpoint:
     health:
       show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: env,health
+
+security:
+  oauth2:
+    client:
+      grant-type: client_credentials

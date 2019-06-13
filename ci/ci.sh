@@ -3,7 +3,7 @@
 set -e
 
 
-./gradlew clean test
+#./gradlew clean test
 
 ./gradlew :applications:backlog-server:assemble
 ./gradlew :applications:allocations-server:assemble
@@ -11,5 +11,3 @@ set -e
 ./gradlew :applications:timesheets-server:assemble
 
 ./ci/deploy.sh
-
-./gradlew cfMigrate
