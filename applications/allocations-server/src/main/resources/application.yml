@@ -1,21 +1,11 @@
-spring:
-  application:
-    name: allocations-server
-  datasource:
-    username: root
-
-registration:
-  server:
-    endpoint: http://registration-server
-
 management:
   endpoint:
     health:
       show-details: always
-  endpoints:
+endpoints:
     web:
       exposure:
-        include: env,health
+        include: "*"
 
 security:
   oauth2:

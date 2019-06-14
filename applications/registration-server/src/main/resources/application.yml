@@ -1,16 +1,8 @@
-spring:
-  application:
-    name: registration-server
-
-registraton:
-  server:
-    endpoint: http://registration-server
-
 management:
   endpoint:
     health:
       show-details: always
-  endpoints:
+endpoints:
     web:
       exposure:
-        include: env,health
+        include: "*"
