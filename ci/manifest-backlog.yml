@@ -11,7 +11,7 @@ applications:
     GRANT_TYPE: client_credentials
   services:
   - tracker-backlog-database
-  - tracker-service-registry
-  - tracker-circuit-breaker-dashboard
-  - tracker-sso
-  - tracker-config-server
+#  - tracker-service-registry
+#  - tracker-circuit-breaker-dashboard
+#  - tracker-sso
+#  - tracker-config-server
