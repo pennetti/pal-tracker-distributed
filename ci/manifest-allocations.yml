@@ -1,6 +1,6 @@
 applications:
 - name: tracker-allocations
-  path: ../applications/allocations-server/build/libs/allocations-server.jar
+  path: ../pal-tracker-distributed/applications/allocations-server/build/libs/allocations-server.jar
   routes:
   - route: allocations-pal-devon-2.cfapps.io
   memory: 1G

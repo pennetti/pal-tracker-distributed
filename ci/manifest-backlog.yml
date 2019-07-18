@@ -1,6 +1,6 @@
 applications:
 - name: tracker-backlog
-  path: ../applications/backlog-server/build/libs/backlog-server.jar
+  path: ../pal-tracker-distributed/applications/backlog-server/build/libs/backlog-server.jar
   routes:
   - route: backlog-pal-devon-2.cfapps.io
   memory: 1G

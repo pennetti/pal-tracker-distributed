@@ -1,6 +1,6 @@
 applications:
 - name: tracker-registration
-  path: ../applications/registration-server/build/libs/registration-server.jar
+  path: ../pal-tracker-distributed/applications/registration-server/build/libs/registration-server.jar
   routes:
   - route: registration-pal-devon-2.cfapps.io
   memory: 1G
