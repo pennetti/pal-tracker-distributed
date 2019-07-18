@@ -106,7 +106,7 @@ jobs:
         username: $CF_USERNAME
         password: $CF_PASSWORD
         organization: $CF_ORG
-        space: $CF_SPACE
+        space: "Travis Pennetti"
     - stage: deploy
       language: bash
       script:
@@ -145,5 +145,5 @@ jobs:
         - sudo apt-get update
         - sudo apt-get install cf-cli
       script:
-        - cf login -a $CF_API_URL -u $CF_USERNAME -p $CF_PASSWORD -o $CF_ORG -s $CF_SPACE
+        - cf login -a $CF_API_URL -u $CF_USERNAME -p $CF_PASSWORD -o $CF_ORG -s "Travis Pennetti"
         - ./gradlew cfMigrate

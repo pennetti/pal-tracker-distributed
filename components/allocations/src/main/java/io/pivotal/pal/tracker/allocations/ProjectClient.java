@@ -1,11 +1,13 @@
 package io.pivotal.pal.tracker.allocations;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestOperations;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
+@Component
 public class ProjectClient {
 
     private final Map<Long, ProjectInfo> projectsCache = new ConcurrentHashMap<>();

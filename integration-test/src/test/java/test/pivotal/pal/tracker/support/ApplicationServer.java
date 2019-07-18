@@ -33,7 +33,7 @@ public class ApplicationServer {
     }
 
     public void startWithDatabaseName(String dbName) throws IOException, InterruptedException {
-        String dbUrl = "jdbc:mysql://localhost:3306/" + dbName + "?user=root&useSSL=false&useTimezone=true&serverTimezone=UTC&useLegacyDatetimeCode=false";
+        String dbUrl = "jdbc:mysql://localhost:3306/" + dbName + "?user=root&password=password&useSSL=false&useTimezone=true&serverTimezone=UTC&useLegacyDatetimeCode=false";
 
         start(envMapBuilder()
                 .put("SPRING_DATASOURCE_URL", dbUrl)
