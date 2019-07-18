@@ -38,7 +38,6 @@ class LocalMigrationPlugin implements Plugin<Project> {
         ext.with {
             url = "jdbc:mysql://localhost:3306/$dbName?useSSL=false&serverTimezone=UTC"
             user = "root"
-            password = "password"
             outOfOrder = false
             locations = ["filesystem:${project.projectDir}"]
         }

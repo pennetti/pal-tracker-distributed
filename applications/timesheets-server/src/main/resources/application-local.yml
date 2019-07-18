@@ -13,5 +13,3 @@ security:
       grant-type: client_credentials
 application:
   oauth-enabled: true
-
-registration.server.endpoint: http://localhost:8083

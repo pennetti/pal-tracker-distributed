@@ -15,4 +15,3 @@ security:
 application:
   oauth-enabled: true
 
-registration.server.endpoint: http://localhost:8083
